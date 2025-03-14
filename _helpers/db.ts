@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 import { createConnection, Connection } from 'typeorm';
-import { User } from '../users/user.entity';
+import { User } from '../users/user.model';
 import config from '../config';
 
 export let connection: Connection;

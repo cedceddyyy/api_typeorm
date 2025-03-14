@@ -1,5 +1,5 @@
 import { getRepository } from 'typeorm';
-import { User } from './user.entity';
+import { User } from './user.model';
 import bcrypt from 'bcryptjs';
 
 export const userService = {
